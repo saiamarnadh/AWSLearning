@@ -1,0 +1,28 @@
+<facial>
+	<method>
+		<type>Brightening Facial</type>
+		<description>Sun exposure is unavoidable and can lead to tanning and uneven skin tones. A brightening facial uses a de-tan pack that is applied after cleansing and exfoliation and before the final face pack.</description>
+		<definition>Tan removal products may contain licorice, vitamin C, kojic acid, citrus extracts and other melanin reducing ingredients for quick improvement of hyperpigmented skin. However, stay away from harsh bleaches, which are detrimental to your skin health.</definition>
+	</method>
+	<method>
+		<type>Fruit Facial</type>
+		<description>Fruit facials contain certain fruit acid like glycolic acid, alpha hydroxyl acid, citric acid, phenolic acid, vitamins and minerals in itThese acids are antiblemish, antiwrinkle and help your skin to exfoliate, it highly detoxifies your skin, it excretes out all the toxins and it hydrates your face.</description>
+		<definition> A popular and affordable choice is the fruit facial. Made from different fruit extracts, this natural facial hydrates and rejuvenates dry, dull skin. It infuses your skin with a variety of vitamins, minerals, antioxidants and other essential plant compounds, thus giving you naturally brighter, plump skin after the facial treatment.</definition>
+	</method>
+	<method>
+		<type>Wine Facial</type>
+		<description>The wine facial kit removes dark spots, acne, and pigmentation effectively while cleansing, exfoliating, and nourishing your skin. Apply the wine Scrub and massage for 5-7 mins. with fingertips in anticlockwise motion to remove dead skin.</description>
+		<definition> Wine facials are also beneficial for oily skin as they help to regulate sebum secretions and keep your skin balanced and fresh.Full of antioxidants such as resveratrol and anti-aging effects, a wine facial can give you radiant, glowing skin and tightened pores.</definition>
+	</method>
+	<method>
+		<type>Collagen Wave Facial</type>
+		<description>Collagen Wave® is a regenerative, non-invasive facial treatment which offers clients an 'exclusive skin tightening treatment which uses radio frequency energy to tighten skin tissue – helping to contour and rejuvenate the skin'.</description>
+		<definition>A collagen wave facial has the ability to contour your features in just one sitting. Radiofrequency waves used in this non-invasive facial target tissues in the deeper layers of your skin.According to studies, the thermal energy causes neocollagenesis (production of fibrotic collagen) leading to more sculpted features from a retraction effect.</definition>
+	</method>
+	<method>
+		<type>De-Tanning</type>
+		<description>detanning essentially means to remove the tan from the body and restore the body's natural, fair skin and lightening peels do exactly that.</description>
+		<definition>Exfoliation and pigment-reducing ingredients used during a facial treatment aid in the removal of dark spots, blemishes and sun-tan on your skin. While the effect may be visible after a few days, it definitely brings a healthy glow to your skin.</definition>
+	</method>
+</facial>
+

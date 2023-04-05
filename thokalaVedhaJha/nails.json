@@ -1,0 +1,7 @@
+{"nails": [
+{"service": "maniCure",  "cost": 20},
+{"service": "shellacManicure",  "cost": 30},
+{"service": "spaPediCure",  "cost": 40},
+{"service": "Spa Pedi & Mani",  "cost": 50},
+{"service": "Deluxe Spa Pedicure",  "cost": 60}
+]}

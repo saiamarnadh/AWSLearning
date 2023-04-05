@@ -1,0 +1,200 @@
+
+            body
+            {
+                margin: 0px;
+                padding: 0px;
+                width: 100%;
+
+            }
+
+            .textCenter
+            {
+                text-align: center;
+            }
+            .contentContainer,.navbarContainer,.menuList,.operation{
+                display: flex;
+            }
+            .contentContainer > div
+            {
+                flex: 1;
+            }
+            .logoContainer
+            {
+                flex: 1;
+                margin: 30px;
+            }
+            .logoContainer>img{
+                border-radius: 50%;
+                
+            }
+                
+
+            }
+            .menuContainer
+            {
+                flex:3;
+            }
+            .menuList
+            {
+                list-style: none;
+                padding-right: 50px;
+                margin-left: 20px;
+                margin-right: 20px;
+
+
+            }
+
+            }
+            .menuList
+            {
+                justify-content: flex-end;
+            }
+            .menuList > li:not(:last-child)
+            {
+                margin-right: 1rem;
+            }
+            .bannerContainer
+            {
+                background-image: url("restaurant-interior.jpg");
+                background-size: cover;
+                background-attachment: fixed;
+                min-height: 50vh;
+                background-position: center right;
+                color: #fff;
+                padding: 2em 5rem;
+            }
+            .mapContainer
+            {
+                margin: 20px;
+                border: 1px solid black;
+            }
+            .operationContainer{
+                border: 2px solid burlywood;
+            }
+            .fa {
+                  padding: 10px;
+                  font-size: 30px;
+                  width: 30px;
+                  text-align: center;
+                  text-decoration: none;
+                  margin: 5px 2px;
+                  border-radius: 50%;
+                  
+                }
+
+                .fa:hover {
+                    opacity: 0.7;
+                }
+
+                .fa-facebook {
+                  background: #3B5998;
+                  color: white;
+                }
+
+                .fa-twitter {
+                  background: #55ACEE;
+                  color: white;
+                }
+
+                .fa-google {
+                  background: #dd4b39;
+                  color: white;
+                }
+
+                table,th, td,tr
+                {
+                    border: 1px solid #333;
+                    width: 90%;
+                    margin: 0 auto;
+                    border-collapse: collapse;
+                }
+
+                                table
+                {
+                    border: none;
+                }
+
+
+                .main-content,.contentContainer
+                {
+                    display: flex;
+                }
+
+                .contentContainer > div
+                {
+                    border: 1px solid red;
+                }
+                .mapContainer
+                {
+                    width: 50%;
+                }
+                .main-content > div
+                {
+                    flex: 1;
+                }
+                .formContainer
+                {
+                    background-color: rgba(0,0,0,0.3);
+                    min-height: 50vh;
+                    padding: 3rem 1rem;
+                }
+
+                select,input
+                {
+                    background-color: #fff;
+                    border: none;
+                    height: 30px;
+                }
+
+                tr{
+                    display: flex;
+                }
+                tr > td, tr > th
+                {
+                    flex: 1;
+                }
+
+                .orderContainer
+                {
+                    width: 100%;
+                    height: 100%;
+justify-content: center;
+align-items: center;
+background-color: rgba(0,0,0,0.1);
+min-height: 50vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 5rem 0px;
+                }
+                .footer
+                {
+                    padding: 1rem;
+/*                    margin: 20px;*/
+                }
+                .footer a
+                {
+                    width: 10px;
+                    height: 10px;
+                    font-size: 12px;
+
+                }
+
+                .btn-info
+                {
+                    background-color: rgba(122, 41, 41, 0.8);
+                    padding: 0.5rem 0.75rem;
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                }
+                .btn-info:hover
+                {
+                    background-color: rgba(130, 41, 41, 0.9);
+                }
+                .operationContainer
+                {
+padding: 1rem;
+                }
+

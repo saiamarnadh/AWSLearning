@@ -1,0 +1,32 @@
+{
+  "facilsurvey": {
+    "facial": [
+        {
+            "id" :"skin",
+            "question": "Please select the skin type",
+            "option": [ "oily", "combination", "dry" ]
+        },
+        {
+            "id": "acne",
+            "question": "Do you have an Acne problem",
+            "option": [ "Yes", "No" ]
+        },
+        {
+            "id": "purpose",
+            "question": "Purpose of the facial",
+            "option": [ "Skin brightening", "Anti-Ageing", "Restore the natural oils" ]
+        },
+        {
+            "id": "detan",
+            "question": "Do you want De-tan",
+            "option": [ "Yes", "No" ]
+        },
+        {
+            "id": "allergy",
+            "question": "Do you have any allergy",
+            "option": [ "Yes", "No" ]
+        }
+
+    ]
+  }
+}

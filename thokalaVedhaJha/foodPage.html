@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Biryani</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="foodPage.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+		<script src="food.js"></script>
+    </head>
+    <body>
+        <div class="containerFluid">
+            <div class="bannerContainer">
+               <div class="navbarContainer">
+					<div class="logoContainer">
+						<img src="logo.jpg" width ="150px"  alt="Logo" />
+					</div>
+					<div class="menuContainer">
+						<ul class="menuList">
+							<li><a href="homepage.html" style="float:right;margin-right:30px;">HOME</a></li> 
+						</ul>
+					</div>
+                </div>
+                <div class="headingContainer textCenter">
+                    <h1>Welcome to the FoodCourt</h1>
+                    <p>No more Hunger</p>                    
+                </div>
+            </div>
+            <div class="main-content">            
+                <div class="formContainer">
+                    <h1>Food Options</h1>
+                    <div class="foodMenu">
+                        <div class="Chinese">                            
+                                  <label><h2>Chinese</h2></label>
+                                  <select name="chineseFood" id="chineseFood">
+								  <option value="select">Select</option>
+                                    <option value="Chowmein" data-price="50">Chowmein</option>
+                                    <option value="HotPot" data-price="100">HotPot</option>
+                                    <option value="Dumpling" data-price="150">Dumpling</option>
+                                    <option value="MA PO TOFU" data-price="20">MA PO TOFU</option>
+                                    <option value="wonton Sopu" data-price="10">wonton Sopu</option> 
+                                  </select>
+                                  <input type="text" id="chinesePrice" readonly placeholder="Price">
+                                  <input type="text" id="qtyChinese"  placeholder="Qty">
+                                  <input type="button" id="chineseSubmit" value="Place order">
+                                  <p id="chineseTotal">Total is: <strong></strong></p>
+                                  
+                        </div>
+                        <div class="Indian">
+                            <p><h2>Indian</h2>
+                                <input type="radio" name="indianOption" data-price="10" value="samosa" id="samosa"/> Samosa
+                                <input type="radio" name="indianOption" data-price="20" value="pakora" id="pakora"/> Pakora
+                                <input type="radio" name="indianOption" data-price="30" value="bosa" id="Dosa"/> Dosa
+                                <input type="radio" name="indianOption" data-price="40" value="idli" id="idli"/> Idli
+                                <input type="radio" name="indianOption" data-price="50" value="biryani" id="Biryani"/> Biryani
+                                
+                            </p>
+                            <p> 
+                                <input type="text" id="indianPrice" readonly placeholder="Price" />
+                                <input type="text" id="qtyIndian" min="1" value="1" placeholder="Qty">
+                                <input type="button" id="indianSubmit" value="Place order">
+                            </p>
+                            <p id="indianTotal">Total is: <strong></strong></p>
+                        </div>
+                        <div class="Italian"></div>
+                    </div>
+                </div>
+                <div class="orderContainer">
+                    <h1>order detail</h1>
+                    <h3 id="orderID">OrderID: <strong></strong></h3>
+                    <table>
+                        <thead>
+                            <tr>
+                            <th>Chinese</th>
+                            <th>Indian</th>
+                            <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="chineseTable">0</td>
+                                <td id="indianTable">0</td>
+                                <td id="allTotal">0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+ </html>

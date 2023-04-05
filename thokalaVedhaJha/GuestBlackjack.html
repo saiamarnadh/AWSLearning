@@ -1,0 +1,43 @@
+<html>
+    <head>
+		<meta charset="utf-8">
+        <title>Guest Blackjack</title>
+		<script src='blackJack.js'></script>
+		<style type="text/css">
+			.cp{
+				cursor: pointer;
+				}
+			.w-50{
+				width: 50%;
+			}
+		</style>
+        
+    </head>
+    <body>
+	<a href="homepage.html" style="float:right;margin-right:30px;">HOME</a>
+	<div style="display:flex;">
+		<div class="w-50">
+			
+			<h1 style="color:orange;">Blackjack..!!</h1>
+			<h2 style="color:orange;">by JO, Lalitha</h2>
+			<p id='text-area'> Welcome to Blackjack!</p>
+			<input type='button' id='newGameBtn' value='New Game!' class="cp"/>
+			<input type='button' id='hitBtn' value='Hit' class="cp" />
+			<input type='button' id='stayBtn' value='Stay' class="cp" />
+		</div>        
+		<div class="w-50" style="margin-top: 10%;">
+			<h4>Game Instructions: </h4>
+			<p>
+				• The face cards (Jack, Queen, King) score 10 points and Ace can either be treated as 1 or 11 according to the advantage of the player.<br>
+				• The player is given two cards face-up when the game starts. <br>
+				• The dealer receives two cards, one face-up and another face-down.2nd card is a secret till the player hits “stay”.<br>
+				• Player will be given a chance to draw more cards if the player’s score is less than or equal to 21.<br>
+				• The player can either ‘hit’ or ‘stay’. If the player calls out ‘HIT’, they are given an extra card. They can then either call out ‘HIT’ again, or ‘stay’ if they do not wish to draw any more cards.<br>
+				• The player can ‘HIT’ as many times as they wish, but have to aim not to ‘bust’ (exceed a total of 21).<br>
+				• The dealer will keep drawing cards from the pack until he has 17 once the player hits “stay”.<br>
+				• A perfect hand combines an ace with a 10, Jack, Queen or King and is known as a ‘Blackjack’.
+			</p>
+		</div> 
+	</div>
+    </body>
+</html>

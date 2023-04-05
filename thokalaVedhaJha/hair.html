@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!--created by Jyothsna -->
+		<title>Hair Styling</title>
+		<meta charset = "UTF-8">
+		<script type = "text/javascript" src = "hair.js"></script>
+		<style>
+			nav			{ font-weight: bold;
+						  color: white;
+						  border: 2px solid orange;
+						  text-align: center;
+						  background-color: orange; }
+
+			nav:hover ul { display: block; }
+			nav ul li	 { display: inline-block;
+						   border-top: 2px solid orange;
+						   background-color: white;
+						   color: black;
+						   width: 100px;
+						   margin-right: 10px;
+						   padding: 10px;
+						   list-style: none;}
+			nav 	ul li:hover { background-color: skyblue; }
+			.w-50{
+					width:50%;
+			}
+			.p-30{
+					padding: 30px;
+			}
+			td:first-child {
+					font-size: 16px;
+					font-weight: bold;
+					width: 25%;
+					text-align: left;
+								}
+			.cp{
+				cursor:pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="salonAndSpa.html" style="float:right;margin-right:30px;">BACK</a>
+		<a href="homepage.html" style="float:right;margin-right:30px;">HOME</a>
+		<div class="banner">
+		<h1>HAIR STYLING</h1>
+		</div>
+		<nav>
+			<ul id = "itemsList">
+				<li class="cp">Hair Dressing</li>
+				<li class="cp">Hair Coloring</li>
+				<li class="cp" >Hair Spa</li>
+				<li style = "width: 200px;" class="cp">Scalp Treatment</li>
+			</ul>
+			</nav>
+			<div style="display:flex;" class="p-30">
+				<div id = "resultPara2" class="w-50"></div>
+				<table id = "resultPara1" class="w-50"></table>	
+			</div>
+	</body>
+</html>

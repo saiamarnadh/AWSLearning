@@ -1,0 +1,64 @@
+<!DOCTYPE HTML> 
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Salon and Spa</title>
+		<style type="text/css">
+			.d-flex{
+				display:flex;
+			}
+			.w-50{
+				width: 50%;
+			}
+			.cp{
+				cursor:pointer;
+			}
+			.card{
+				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+				transition: 0.3s;
+				width: 60%;
+				height: 190px;
+				border-radius: 5px;
+				background-color: skyblue;
+				margin-bottom: 30px;
+				color:white;
+				font-size: 55px;	
+			}
+			.resultCard{
+				width: 60%;
+				height: 190px;
+				border-radius: 5px;
+			}
+			.labelDiv{
+				position: relative;
+				top: 53px;
+				text-align: center;
+				display: block;
+				cursor: pointer;
+			}
+						
+		</style>
+		
+		<script type="text/javascript" src="salonAndSpa.js"></script>
+	</head>
+	
+	<body>
+		<a href="homepage.html" style="float:right;margin-right:30px;">HOME</a>
+
+		<h1 style="color:orange;">KC Salon And Spa</h1>
+		<div class="d-flex">
+			<div class="w-50">
+				<h3 style="color:orange;">SELECT CATEGORIES</h3>
+				<div>
+					<div id="hairDiv" class="cp card"><label class="labelDiv">HAIR</label></div>
+					<div id="facialsDiv" class="cp card"><label class="labelDiv">FACIALS</label></div>
+						<div id="nailsDiv" class="cp card"><label class="labelDiv">NAILS</label></div>
+				</div>
+			</div>
+			<div class="w-50" style="margin-top:5%;">
+				<!--<h3>Select</h3>-->
+				<div id="resultPara" class="resultCard"></div>
+			</div>
+		</div>
+	</body>
+</html>

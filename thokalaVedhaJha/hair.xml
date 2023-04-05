@@ -1,0 +1,18 @@
+<hair>
+	<method>
+		<type>Blunt Haircut</type>
+		<definition>“Blunt” means that the hair is cut straight across, with no elevation (meaning that it’s cut where it naturally lays). The result is a very hard line with thick ends and no texture.</definition>
+	</method>
+	<method>
+		<type>Layered Haircut</type>
+		<definition>Layers are cut when the hair is elevated, which leaves the hair with several different lengths and a ton of texture. They can be short and blended through the whole head of hair, or there can be minimal layering towards the bottom of the hair.</definition>
+	</method>
+	<method>
+		<type>Bobs and Lobs</type>
+		<definition>To summarize, a bob is really just a short haircut that falls between the chin and shoulders. It could be layered all over or be blunt cut with beveled ends.  It could be completely straight or have angled lines.</definition>
+	</method>
+	<method>
+		<type>Pixie Cut</type>
+		<definition>A pixie haircut is a super short, yet super popular women’s haircut with tons of texture. As shorter hair has been trending for women in the past few years, the pixie has been slowly rising to the top.</definition>
+	</method>
+</hair>

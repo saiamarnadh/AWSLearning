@@ -1,0 +1,35 @@
+
+<survey>
+	<questions>
+		<question>How old are you?</question>
+		<name>age</name>
+		<option>19-25</option>
+		<option>26-35</option>
+		<option>36-45</option>
+		<option>46-55</option>
+		<option>55-older</option>
+	</questions>
+	<questions>
+		<question>What gender do you identify with?</question>
+		<name>gender</name>
+		<option>Male</option>
+		<option>Female</option>
+		<option>Do not Wish to say</option>
+	</questions>
+	<questions>
+		<question>Do you shop with fast fashion brands?</question>
+		<name>brands</name>
+		<option>Yes</option>
+		<option>No</option>
+		<option>Very Often</option>
+	</questions>
+	<questions>
+		<question>What kind of clothes would you prefer to buy?</question>
+		<name>clothtype</name>
+		<option>Traditional Indian</option>
+		<option>Western Wear</option>
+		<option>Beach wear</option>
+		<option>Business Casuals</option>
+		<option>Office Wear</option>
+	</questions>
+</survey>

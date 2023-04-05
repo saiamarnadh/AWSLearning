@@ -1,0 +1,107 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<!-- Created by lalitha -->
+		<meta charset="utf-8">
+		<title>Home page of kS Mall</title>
+		<script type="text/javascript" src="homepage.js"></script>
+		<style type="text/css">
+			 .card{
+					box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+					transition: 0.3s;
+					width: 20%;
+					height: 215px;
+					border-radius: 5px;
+					background-color: skyblue;
+				}
+				.container {
+					padding: 2px 16px;
+				}
+				.containerDiv{
+					display: flex;
+					text-align: center;
+				}
+				.animate-character{
+					text-align: center;
+					background-image: linear-gradient(
+						-225deg,
+						#231557 0%,
+						#44107a 29%,
+						#ff1361 67%,
+						#fff800 100%
+					  );
+					background-size: 200% auto;
+					-webkit-background-clip: text;
+					-webkit-text-fill-color: transparent;
+					animation: textclip 2s linear infinite;
+				}
+
+				@keyframes textclip {
+				  to {
+						background-position: 200% center;
+					  }
+					}
+				.food{
+						position: relative;
+						left: 20%;
+						margin-top: 62px;
+						color: white;
+				}
+				.clothing{
+						position: relative;
+						left: 35%;
+						margin-top: 62px;
+						color: white;
+				}
+				.cp{
+						cursor: pointer;
+				}
+				.fw-900{
+					font-weight: 900;
+				}
+				
+		</style>
+	</head>
+	
+	<body>
+		<a href="aboutUs.html" style="float:right;position: relative; right: 30px">About Us</a>
+		<div>
+			<h1 class="animate-character"><i>A MALL THAT HAS IT ALL</i></h1>
+		</div>
+		<div>
+			<div class="containerDiv">
+			<!-- food card html -->
+				<div class="card food" id="foodBlog">
+					<div class="container cp">
+						<h4><b><i>FOOD</i></b></h4>
+						<p class="fw-900">EAT FRESH</p>
+					</div>
+				</div>
+				<!-- CLOTHING card html -->
+				<div class="card clothing" id="clothingBlog">
+					<div class="container cp">
+						<h4><b><i>CLOTHING</i></b></h4>
+						<p class="fw-900">FASHION AS UNIQUE AS YOU ARE</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="containerDiv">
+				<!-- SALON & SPA card html -->
+				<div class="card food" id="salonBlog">
+					<div class="container cp">
+						<h4><b><i>SALON & SPA</i></b></h4>
+						<p class="fw-900">A STRESS RELIEVING EXPERIENCE</p>
+					</div>
+				</div>
+				<!-- ONLINE GAMING card html -->
+				<div class="card clothing" id="gamingBlog">
+					<div class="container cp">
+						<h4><b><i>ONLINE GAMING</i></b></h4>
+						<p class="fw-900">HIT THE JACKPOT</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
